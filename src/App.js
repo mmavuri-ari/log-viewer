@@ -7,12 +7,12 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Enterprise Log Analyzing Portal</h2>
+          <h2>Holman Enterprise Log Portal</h2>
         </div>
         <div>
           This is our application Area. 
-        </div>
-      </div>
+        </div>        
+      </div>      
     );
   }
 }
