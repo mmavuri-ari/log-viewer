@@ -1,18 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import { Header } from './screens/Root'
+import './App.css'
+import { Block } from 'jsxstyle'
+class App extends React.Component {
+  
+  state = {
+    isAuth: false
+  }
 
-import './App.css';
-
-class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <h2>Holman Enterprise Log Portal</h2>
-        </div>
-        <div>
-          This is our application Area. 
-        </div>        
-      </div>      
+    return (                      
+        <Header/>            
     );
   }
 }
