@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
-import { Header } from './screens/Root'
+import { Header,NavBar,LogData } from './screens/Root'
 import './App.css'
 import { Block } from 'jsxstyle'
+import {
+   BrowserRouter as Router
+ } from 'react-router-dom'
+
 class App extends React.Component {
   
   state = {
@@ -9,8 +13,13 @@ class App extends React.Component {
   }
 
   render() {
-    return (                      
-        <Header/>            
+    return (     
+      <Router>
+        <Block>               
+          <Header/>    
+          <NavBar/>            
+        </Block> 
+      </Router>           
     );
   }
 }

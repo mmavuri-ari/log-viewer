@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 60px
 }
 
 .App-logo {
@@ -10,7 +11,7 @@
 .App-header {
   background-color: #777;
   height: 50px;
-  padding: 20px;
+  padding: 5px;
   color: white;
 }
 
@@ -44,3 +45,67 @@ button{
     font-size: 12px;
     border-radius: 8px;
 }
+
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
+}
+
+
+/*h1 {
+  letter-spacing: 1.5px;
+  color: #707070;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+h2 {
+  letter-spacing: 1.5px;
+  color: #365899;
+  font-size: 2em;
+  font-weight: 100;
+}*/
+
+.logo {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 44px;
+
+}
+
+.nav-top__ul {
+  list-style-type: none;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-top__li {
+  margin: 0px 20px;
+}
+
+.nav-top__li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 0 10px 10px 10px;
+}
+
+.nav-top__li--active {
+  border-bottom: 5px solid #365899;
+}
+
+
+.page-appear {
+  opacity: 0.01;
+}
+
+.page-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+

@@ -5,9 +5,9 @@ const Header = () => (
         <div className="App-header">
           <h2>Holman Enterprise Log Portal</h2>
         </div>
-        <div>
+        {/*<div>
           This is our application Area. 
-        </div>        
+        </div> */  }     
       </div>   
 )
 
